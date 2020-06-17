@@ -1,19 +1,19 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
+
+// both imports are worked
+// import styles from "./App.scss"; // it is not working, error occurred
+const styles = require('./App.scss'); // it works fine
 
 export default function App() {
+
   return (
+
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+
+      <Text style={styles.blue}>Open up App.tsx to start working on your app!</Text>
+
     </View>
+
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
