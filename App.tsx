@@ -4,8 +4,8 @@ import { AppLoading } from 'expo';
 import * as Font from 'expo-font';
 
 // both imports are worked
-import styles from "./App.scss"; // it is not working, error occurred
-// const styles = require('./App.scss'); // it works fine
+import styles from "./App.scss";
+// const styles = require('./App.scss');
 
 const fetchFonts = () => {
   return Font.loadAsync({
