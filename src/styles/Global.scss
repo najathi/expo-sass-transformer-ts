@@ -1,0 +1,7 @@
+$primary: #5AFC04;
+
+@mixin headingText() {
+    font-family: $headingTextFont;
+    font-size: $headingTextFontSize;
+    color: $headingTextColor;
+}

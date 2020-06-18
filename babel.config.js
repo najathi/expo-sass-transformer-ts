@@ -3,13 +3,12 @@ module.exports = function (api) {
   return {
     presets: ['babel-preset-expo'],
     plugins: [
-      // "react-native-classname-to-style",
-      "react-native-classname-to-dynamic-style",
+      "react-native-classname-to-style",
+      // "react-native-classname-to-dynamic-style",
       [
         "react-native-platform-specific-extensions",
-        { extensions: ["scss", "sass"] }
+        { extensions: ["css", "scss", "sass"] }
       ],
-
     ]
   };
 };
