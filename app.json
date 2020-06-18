@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-sass-transformer",
-    "slug": "expo-sass-transformer",
+    "name": "expo-sass-transformer-ts",
+    "slug": "expo-sass-transformer-ts",
     "platforms": [
       "ios",
       "android",
