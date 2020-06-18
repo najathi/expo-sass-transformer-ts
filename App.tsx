@@ -34,7 +34,7 @@ export default function App() {
 
     <View className={styles.container}>
 
-      <Text className={styles.blue}>Open up App.tsx to start working on your app!</Text>
+      <Text className={styles.text}>Open up App.tsx to start working on your app!</Text>
 
     </View>
 

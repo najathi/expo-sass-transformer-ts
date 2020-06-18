@@ -5,12 +5,8 @@
 	background-color: $primary;
 }
 
-.color {
-	color: green;
-}
-
-.blue {
+.text {
+	color: blue;
 	font-size: 30px;
-	@extend .color;
-	// @include headingText();
+	@include headingText();
 }
