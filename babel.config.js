@@ -4,7 +4,6 @@ module.exports = function (api) {
     presets: ['babel-preset-expo'],
     plugins: [
       "react-native-classname-to-style",
-      // "react-native-classname-to-dynamic-style",
       [
         "react-native-platform-specific-extensions",
         { extensions: ["css", "scss", "sass"] }

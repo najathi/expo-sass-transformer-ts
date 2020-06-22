@@ -18,14 +18,13 @@
   "devDependencies": {
     "@babel/core": "^7.8.6",
     "@types/react": "~16.9.23",
-    "@types/react-native": "~0.61.17",
+    "@types/react-native": "kristerkari/react-native-types-for-css-modules#v0.61.23",
     "babel-plugin-react-native-classname-to-dynamic-style": "^0.22.0",
     "babel-plugin-react-native-classname-to-style": "^1.2.2",
     "babel-plugin-react-native-platform-specific-extensions": "^1.1.1",
     "babel-preset-expo": "~8.1.0",
     "node-sass": "^4.14.1",
     "react-native-sass-transformer": "^1.4.0",
-    "react-native-typed-sass-transformer": "^0.11.0",
     "typescript": "^3.9.5"
   },
   "private": true
