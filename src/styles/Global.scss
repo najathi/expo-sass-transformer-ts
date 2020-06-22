@@ -1,0 +1,16 @@
+$primary: #AAFFCC;
+
+$dark0: black;
+
+$normal: 15;
+
+$fontRegular: "MontserratRegular";
+$fontLight: "MontserratLight";
+$fontSemiBold: "MontserratSemiBold";
+$fontBold: "MontserratBold";
+
+@mixin headingText() {
+    font-family: $fontRegular;
+    font-size: $normal;
+    color: $dark0;
+}

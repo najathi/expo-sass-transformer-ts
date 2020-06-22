@@ -2,10 +2,11 @@
 	flex: 1;
 	justify-content: center;
 	align-items: center;
-	background-color: #ccc;
+	background-color: $primary;
 }
 
 .text {
 	color: blue;
 	font-size: 30px;
+	@include headingText();
 }
