@@ -9,6 +9,8 @@
     "noEmit": false,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "strict": true
+    "strict": true,
+    "baseUrl": "types",
+    "typeRoots": ["types"]
   }
 }
