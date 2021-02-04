@@ -2,11 +2,17 @@
 	flex: 1;
 	justify-content: center;
 	align-items: center;
-	background-color: $primary;
+	background-color: $alt;
 }
 
 .text {
-	color: blue;
 	font-size: 30px;
-	// @include headingText();
+	@include headingText();
+	font-size: 16px;
+	color: $dark0;
+	padding: 0 0 20px 0;
+}
+
+.textAlt {
+	font-family: $fontBold;
 }

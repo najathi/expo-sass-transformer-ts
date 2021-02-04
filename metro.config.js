@@ -1,9 +1,11 @@
-const { getDefaultConfig } = require("metro-config");
+const { getDefaultConfig } = require("@expo/metro-config");
+
+const defaultConfig = getDefaultConfig(__dirname);
 
 module.exports = (async () => {
 	const {
 		resolver: { sourceExts }
-	} = await getDefaultConfig();
+	} = await defaultConfig;
 	return {
 		transformer: {
 			babelTransformerPath: require.resolve("./transformer.js")
