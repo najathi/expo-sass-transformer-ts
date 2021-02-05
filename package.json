@@ -22,7 +22,7 @@
   "devDependencies": {
     "@babel/core": "~7.9.0",
     "@types/react": "~16.9.35",
-    "@types/react-native": "~0.63.2",
+    "@types/react-native": "kristerkari/react-native-types-for-css-modules",
     "babel-plugin-react-native-classname-to-dynamic-style": "^0.22.0",
     "babel-plugin-react-native-classname-to-style": "^1.2.2",
     "babel-plugin-react-native-platform-specific-extensions": "^1.1.1",
