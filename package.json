@@ -27,7 +27,7 @@
     "babel-plugin-react-native-classname-to-style": "^1.2.2",
     "babel-plugin-react-native-platform-specific-extensions": "^1.1.1",
     "babel-preset-expo": "8.3.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react-native-sass-transformer": "^1.4.0",
     "typescript": "~4.0.0"
   },
